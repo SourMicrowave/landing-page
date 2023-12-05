@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica, "Brush Script MT", "Times New Roman", sans-serif;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.header-link-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.header-link-box a{
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
