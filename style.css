@@ -24,6 +24,13 @@ body {
   margin-left: 150px;
 }
 
+.logo img, .logo {
+  width: 100px;
+  height: auto;
+}
+
+
+
 .header-link-box {
   display: flex;
   gap: 20px;
@@ -225,3 +232,103 @@ body {
   font-size: 11px;
   text-align: center;
 }
+
+/*recipes*/
+
+.background-fill {
+  background-color: #E5E7EB;
+  width: 100vw;
+  height: 100vh;
+}
+
+.recipe {
+  color: #1F2937;
+  font-size: 48px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sam {
+  width: 600px;
+  height: auto;
+  border-style: solid;
+  border-color: #1F2937;
+  border-radius: 2px;
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*species*/
+
+.page-title {
+  margin: 0;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.species {
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #1F2937;
+  overflow: hidden;
+}
+
+.species img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.species-content {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.species p {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*bios*/
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 50px;
+  height: 300px;
+  width: 600px;
+}
+
+.bio-header {
+  font-size: 24px;
+}
+
+.bio img {
+  width: 250px;
+  height:250px;
+  object-fit: cover;
+  border-style: solid;
+  border-color: #3882F6;
+}
+
+.bio-odd {
+  background-color: #F9FAF8;
+  width: 100vw;
+}
+
