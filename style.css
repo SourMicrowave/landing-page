@@ -78,7 +78,6 @@ body {
 
 .main-jelly-image {
   object-fit: cover; /* stops image getting squished */
-  
 }
 
 
@@ -89,4 +88,51 @@ body {
   border-radius: 8px;
   font-size: 18px;
   padding: 5px;
+}
+
+
+
+/* content-box-2 */
+
+.content-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-box-2 h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.fact-box p, .content-box-2 h2 {
+  color: #1F2937;
+}
+
+.fact-box p {
+  font-size: 18px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  
+}
+
+.fact-box {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.fact-box img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 10px;
 }
